@@ -13,7 +13,7 @@ const AboutSection = () => {
 
 
 <div className=" w-full   ">
-<div className=" flex  justify-center items-center flex-col lg:flex-row">
+<div className=" flex h justify-center items-center flex-col lg:flex-row ">
   <div className="lg:w-2/4">  {/* Left section - Content */}
         <div className="flex flex-col justify-center w-full h-full p-4">
           <h1 className="font-extrabold text-2xl lg:text-2xl mb-4 w-full text-center">

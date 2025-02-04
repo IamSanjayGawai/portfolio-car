@@ -213,7 +213,7 @@ const App = () => {
     setTimeout(() => {
       setShowComputer(false);
       setShowContent(true);
-    }, 1000);
+    },4000);
   };
 
   const sections = [
@@ -265,7 +265,7 @@ const App = () => {
       {showContent && (
         <main>
           {/* nav */}
-          <nav className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md z-40 border-b border-gray-200 px-4 py-8">
+          <nav className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md z-40 border-b border-gray-200 px-4 py-5 ">
             <div className="max-w-7xl mx-auto flex justify-between">
               <a href="#" className="font-bold lg:text-3xl text-indigo-600">
                 Sanjay Gawai
