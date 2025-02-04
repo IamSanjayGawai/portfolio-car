@@ -21,7 +21,7 @@
 
 const EmailSent = () => {
   return (
-    <div className="fixed top-4 right-4 flex items-center p-4 mb-4 text-sm text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400 shadow-lg z-50" role="alert">
+    <div className="fixed top-4 right-4 flex items-center p-4 mb-4 text-sm text-green-800 rounded-lg bg-green-50  shadow-lg z-50" role="alert">
       <svg
         className="flex-shrink-0 w-4 h-4 mr-3"
         aria-hidden="true"

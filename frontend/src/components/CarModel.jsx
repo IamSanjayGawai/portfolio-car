@@ -55,7 +55,7 @@ const Model = () => {
   });
 
   // Scale the car model and rotate it to face the right side
-  scene.scale.set(3, 3, 3); // Increase the size (adjust the factor to suit your needs)
+  scene.scale.set(1, 1, 1); // Increase the size (adjust the factor to suit your needs)
   scene.rotation.y = Math.PI / 1.5; // Rotate the car 90 degrees to the right
 
   return <primitive object={scene} />;
@@ -63,7 +63,7 @@ const Model = () => {
 
 const CarModel = () => {
   return (
-    <Canvas shadows camera={{ position: [5,2, 10], fov: 40 }}>
+    <Canvas shadows camera={{ position: [5,2, 10], fov: 25 }}>
       {/* Environment Map for Realistic Reflections */}
       <Environment preset="city" />
 

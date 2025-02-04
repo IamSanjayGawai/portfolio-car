@@ -238,7 +238,7 @@ const App = () => {
 <Computer />
       </div>      
       }
-            <div className="relative w-[600px] h-[400px] mb-2">
+            <div className="relative lg:w-[600px] lg:h-[400px] mb-2">
               <img
                 src={profile}
                 alt="Welcome Image"
@@ -268,7 +268,7 @@ const App = () => {
           <nav className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md z-40 border-b border-gray-200 px-4 py-5 ">
             <div className="max-w-7xl mx-auto flex justify-between">
               <a href="#" className="font-bold lg:text-3xl text-indigo-600">
-                Sanjay Gawai
+                Sanjay
               </a>
               <div className="flex space-x-6">
                 {["About", "Experience", "Skills", "Projects", "Contact"].map(
@@ -276,7 +276,7 @@ const App = () => {
                     <a
                       key={item}
                       href={`#${item.toLowerCase()}`}
-                      className="text-gray-600 font-bold lg:text-xl hover:text-indigo-600"
+                      className="text-gray-600  text-sm hover:text-indigo-600"
                     >
                       {item}
                     </a>
@@ -304,10 +304,10 @@ const App = () => {
                 <div className="relative h-8 bg-gray-500">
                   <div
                     id="car"
-                    className="absolute -top-[100px] -left-80 transition-all duration-300"
-                    style={{ left: `${progress}%` }}
+                    className="absolute -top-[70px]  transition-all duration-300"
+                    style={{ left: `calc(${progress}% - 150px)` }}
                   >
-                    <CarModel />
+                    <CarModel className="border-2" />
                   </div>
                   <div className="absolute top-8 left-0 right-0 flex justify-between text-sm text-gray-600 w-full">
                     <Flag />
