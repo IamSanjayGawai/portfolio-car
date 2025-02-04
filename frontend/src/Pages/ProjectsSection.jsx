@@ -69,10 +69,10 @@ const ProjectsSection = () => {
             </div>
           ) : (
             // Render visible projects
-            <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-1 lg:grid-cols-4 xl:grid-cols-4 w-full">
+            <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 w-full">
               {visibleProjects.map((project, index) => (
 
-                  <div key={index} className="rounded-[50px] shadow-lg overflow-hidden flex w-full  xs:flex-col lg:flex-col border-2 ">
+                  <div key={index} className="rounded-[50px] shadow-lg overflow-hidden flex w-full  flex-col lg:flex-col border-2 ">
                     <div className="w-full border flex justify-center items-center p-6">
                       <a href={project.live_link} target="_blank" rel="noopener noreferrer ">
                         <img
