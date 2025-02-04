@@ -129,7 +129,7 @@ const ProjectsSection = () => {
                               clipRule="evenodd"
                             />
                           </svg>
-                          Live Demo
+                          Live
                         </a>
                        
                       </div>
