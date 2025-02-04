@@ -16,7 +16,7 @@ const AboutSection = () => {
 <div className=" flex  justify-center items-center flex-col lg:flex-row">
   <div className="lg:w-2/4">  {/* Left section - Content */}
         <div className="flex flex-col justify-center w-full h-full p-4">
-          <h1 className="font-extrabold text-4xl lg:text-5xl mb-4 w-full text-center">
+          <h1 className="font-extrabold text-2xl lg:text-2xl mb-4 w-full text-center">
             <div className="w-full flex justify-center items-center">
               <div className="w-2/4 border-t-4 border-black mb-4"></div>
             </div>
@@ -25,7 +25,7 @@ const AboutSection = () => {
               <div className="w-2/4 border-t-4 border-black mt-5"></div>
             </div>
           </h1>
-          <p className="text-3xl lg:text-6xl font-bold text-black text-center break">
+          <p className="text-2xl lg:text-3xl font-bold text-black text-center break">
             <span>Expert </span>
             <span className="text-green-400 ">Web Design </span>
             <span className="text-green-400 ">Front-End Development,</span>
@@ -33,14 +33,14 @@ const AboutSection = () => {
             <span className="text-green-400 ">SaaS Solutions </span>
           </p>
 
-          <p className="text-lg lg:text-3xl mb-4 w-full text-center break mt-10">
+          <p className="text-lg lg:text-2xl mb-4 w-full text-center break mt-10">
             I'm an{" "}
-            <span className="text-lg lg:text-3xl font-bold text-black">
+            <span className="text-lg lg:text-2xl font-bold text-black">
               Expert Frontend Developer
             </span>{" "}
             with
             <span className="px-4 border-2 rounded-full text-center ml-2 bg-gray-100">
-              <span className="text-lg lg:text-3xl font-bold text-black">
+              <span className="text-lg lg:text-2xl font-bold text-black">
                 1.7+ Years
               </span>
             </span>{" "}
