@@ -245,7 +245,7 @@ const App = () => {
                 className="w-full h-full object-contain"
               />
             </div>
-            <div className="text-2xl font-bold mb-4">
+            <div className="text-2xl font-bold mb-4 ">
               <p>
               Hello I'am Sanjay Gawai</p>
               <p>Press Enter to Begin My Journey</p>
@@ -304,15 +304,12 @@ const App = () => {
                 <div className="relative h-8 bg-gray-500">
                   <div
                     id="car"
-                    className="absolute -top-[70px]  transition-all duration-300"
-                    style={{ left: `calc(${progress}% - 150px)` }}
+                    className="absolute -top-[85px]  transition-all duration-300"
+                    style={{ left: `calc(${progress}% - 80px)` }}
                   >
-                    <CarModel className="border-2" />
+                    <img src="/car.svg" alt="Welcome Image" className="w-40 h-40 object-contain" />
                   </div>
-                  <div className="absolute top-8 left-0 right-0 flex justify-between text-sm text-gray-600 w-full">
-                    <Flag />
-                    <Parking />
-                  </div>
+              
                 </div>
               </div>
             </div>

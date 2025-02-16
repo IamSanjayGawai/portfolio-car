@@ -27,40 +27,6 @@ import askexpAdmin from "../assets/projects/AskExp-1.png"
 const projectData = {
   projects: [
     {
-      id: 3,
-      name: "AI Expense Manager",
-      description:
-        "AI Expense Manager is a platform designed to help users manage and track their personal expenses with AI-driven insights and budgeting tools.",
-      image: expTop,
-      images: [ expResult, exptransaction, expAdmin,expHero],
-      tech_stack: [ "React 19",
-        "Next.js 15",
-        "Tailwind CSS",
-        "Supabase",
-        "Prisma",
-        "Clerk Authentication",
-        "Inngest",
-        "Arcjet",
-        "ShadCN UI"],
-      problem_faced: [
-        {
-          problem: "Analyzing user spending habits and categorizing expenses accurately.",
-          solution:
-            "We used machine learning models to categorize transactions based on patterns and implemented an AI algorithm to provide predictive insights.",
-        },
-        {
-          problem: "Scaling the system for a large number of users.",
-          solution:
-            "We used cloud-based solutions for scalability and implemented efficient data storage practices to handle large datasets.",
-        },
-      ],
-      more_details:
-        "The platform uses AI to track expenses, suggest budgets, and generate reports, helping users make smarter financial decisions.",
-        live_link: "https://expense-project-self.vercel.app/"  ,
-        github_link: "https://github.com/IamSanjayGawai/ExpenseProject"
-      
-      },
-    {
       id: 1,
       name: "Asnaro",
       description:
@@ -119,11 +85,46 @@ const projectData = {
       ],
       more_details:
         "This project was designed to scale and handle over 1,000 monthly active users with a target uptime of 99.9%. The goal was to process 500+ transactions monthly while reducing infrastructure costs by 35%.",
-      live_link: ""  ,
+      live_link: "https://asnaro.co.jp/"  ,
       github_link: "https://github.com/IamSanjayGawai/asnaro-webapp"
     
     
       },
+    {
+      id: 3,
+      name: "AI Expense Manager",
+      description:
+        "AI Expense Manager is a platform designed to help users manage and track their personal expenses with AI-driven insights and budgeting tools.",
+      image: expTop,
+      images: [ expResult, exptransaction, expAdmin,expHero],
+      tech_stack: [ "React 19",
+        "Next.js 15",
+        "Tailwind CSS",
+        "Supabase",
+        "Prisma",
+        "Clerk Authentication",
+        "Inngest",
+        "Arcjet",
+        "ShadCN UI"],
+      problem_faced: [
+        {
+          problem: "Analyzing user spending habits and categorizing expenses accurately.",
+          solution:
+            "We used machine learning models to categorize transactions based on patterns and implemented an AI algorithm to provide predictive insights.",
+        },
+        {
+          problem: "Scaling the system for a large number of users.",
+          solution:
+            "We used cloud-based solutions for scalability and implemented efficient data storage practices to handle large datasets.",
+        },
+      ],
+      more_details:
+        "The platform uses AI to track expenses, suggest budgets, and generate reports, helping users make smarter financial decisions.",
+        live_link: "https://expense-project-self.vercel.app/"  ,
+        github_link: "https://github.com/IamSanjayGawai/ExpenseProject"
+      
+      },
+   
 
   
     

@@ -41,7 +41,7 @@ const AboutSection = () => {
             with
             <span className="px-4 border-2 rounded-full text-center ml-2 bg-gray-100">
               <span className="text-lg lg:text-2xl font-bold text-black">
-                1.7+ Years
+                1.4+ Years
               </span>
             </span>{" "}
             of expertise in{" "}
